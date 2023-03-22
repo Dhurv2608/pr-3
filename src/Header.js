@@ -44,9 +44,9 @@ const Header = () => {
       <div className="row">
         <div className="col-md-3">
           <div className="logo mt-4">
-            <a className="logo_img" href="index-2.html" title="techno">
+            <Link className="logo_img" to="/" title="techno">
               <img src="assets/images/1.png" alt />
-            </a>
+            </Link>
             <a className="main_sticky" href="index-2.html" title="techno">
               <img src="assets/images/logo.png" alt="astute" />
             </a>
@@ -64,16 +64,16 @@ const Header = () => {
               <li><Link to="/Services">Services</Link>
                 
               </li>
-              <li><Link to="#solution.html">IT Solution</Link>
+              <li><Link to="/Industries">IT Solution</Link>
                 
               </li>
-              <li><Link to="#elements.html">Element</Link>
+              <li><Link to="/Services_element">Element</Link>
                 
               </li>
-              <li><Link to="#blog">Blog </Link>
+              <li><Link to="/Blog">Blog </Link>
                 
               </li>
-              <li><Link to="#contact">Contact</Link>
+              <li><Link to="/Contact">Contact</Link>
                
               </li>
             </ul>
